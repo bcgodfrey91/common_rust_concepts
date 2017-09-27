@@ -1,3 +1,4 @@
+#![allow(unused_variables)]
 fn main() {
     // variables and mutability
     let mut x = 5;
@@ -13,4 +14,12 @@ fn main() {
     let y = y * 2;
 
     println!("The value of x is: {}", y);
+
+    let spaces = "1234";
+    let spaces = spaces.len();
+
+    println!("The value of spaces is: {}", spaces);
+
+    // data types
+    
 }

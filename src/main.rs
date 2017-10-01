@@ -73,17 +73,10 @@ fn main() {
     println!("The value of one is: {}", one);
 
     // arrays
-    // let arr = [1, 2, 3, 4, 5];
-    // let index = 10;
+    let arr = [1, 2, 3, 4, 5];
+    let index = 10;
 
-    // let element = arr[index];
+    let element = arr[index];
 
-    // println!("The value of element is: {}", element);
-
-    another_function();
-}
-
-
-fn another_function() {
-    println!("Another function.");
+    println!("The value of element is: {}", element);
 }

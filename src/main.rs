@@ -73,10 +73,25 @@ fn main() {
     println!("The value of one is: {}", one);
 
     // arrays
-    let arr = [1, 2, 3, 4, 5];
-    let index = 10;
+    // error example
+    // let arr = [1, 2, 3, 4, 5];
+    // let index = 10;
 
-    let element = arr[index];
+    // let element = arr[index];
 
-    println!("The value of element is: {}", element);
+    // println!("The value of element is: {}", element);
+
+    let xx = five();
+    println!("The value of xx is: {}", xx);
+
+    let xy = plus_one(5);
+    println!("The value of xy is: {}", xy);
+}
+
+fn five() -> i32 {
+    5
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }

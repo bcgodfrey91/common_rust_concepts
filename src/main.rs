@@ -86,6 +86,24 @@ fn main() {
 
     let xy = plus_one(5);
     println!("The value of xy is: {}", xy);
+
+    let number = 3;
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
+
+    let number = 7;
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
+
+    if number != 0 {
+        println!("number was not zero");
+    }
 }
 
 fn five() -> i32 {
